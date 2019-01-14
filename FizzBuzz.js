@@ -1,12 +1,20 @@
 import React from "react";
 
 class FizzBuzz extends React.Component {
-
-  componentDidMount(){
-    
+  handleFizzBuzz(num) {
+    for (let i = 0; (i = num); i++) {
+      if (num % 2 === 0) {
+        console.log("fizz");
+      }
+      if (num % 5 === 0) {
+        console.log("buzz");
+      } else {
+        console.log(num);
+      }
+    }
   }
   render() {
-    return <></>;
+    return <>{this.handleFizzBuzz(100)}</>;
   }
 }
 
