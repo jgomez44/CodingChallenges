@@ -18,8 +18,14 @@ class ReverseString extends React.Component {
   render() {
     return (
       <>
-        {console.log(this.reverseString("apple"))}
-        {console.log(this.reverseStringLoop("orange"))}
+        <h3>Reverse String:</h3>
+        <div>
+          <h4>Split, Reverse, Join Ex:</h4>
+          <p>Apple: {this.reverseString("apple")}</p>
+          <br />
+          <h4>Loop Ex:</h4>
+          <p>Orange: {this.reverseStringLoop("orange")}</p>
+        </div>
       </>
     );
   }
