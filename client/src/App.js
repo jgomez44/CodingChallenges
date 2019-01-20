@@ -3,6 +3,7 @@ import "./App.css";
 import FizzBuzz from "./FizzBuzz";
 import ReverseString from "./ReverseString";
 import Factorialize from "./Factorialize";
+import PalindromeCheck from "./PalindromeCheck";
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
           <FizzBuzz />
           <ReverseString />
           <Factorialize />
+          <PalindromeCheck />
         </div>
       </>
     );

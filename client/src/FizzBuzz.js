@@ -5,7 +5,7 @@ class FizzBuzz extends React.Component {
     let results = [];
     for (let i = 0; i <= num; i++) {
       results.push(
-        <div>
+        <div key={i}>
           {i}: {(i % 3 ? "" : "fizz") + (i % 5 ? "" : "buzz") || i}
         </div>
       );
