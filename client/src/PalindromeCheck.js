@@ -2,8 +2,11 @@ import React from "react";
 
 class PalindromeCheck extends React.Component {
   palindromeCheck = str => {
-    let arr = str.split("");
-    let reverseStr = str.split("").reverse();
+    let arr = str.split("").join("");
+    let reverseStr = str
+      .split("")
+      .reverse()
+      .join("");
     if (arr === reverseStr) {
       return true;
     } else {
