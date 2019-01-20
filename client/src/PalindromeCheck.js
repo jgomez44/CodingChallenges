@@ -7,11 +7,7 @@ class PalindromeCheck extends React.Component {
       .split("")
       .reverse()
       .join("");
-    if (arr === reverseStr) {
-      return "true";
-    } else {
-      return "false";
-    }
+    return arr === reverseStr ? "true" : "false";
   };
   render() {
     return (
