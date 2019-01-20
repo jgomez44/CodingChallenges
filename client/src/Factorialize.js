@@ -9,7 +9,12 @@ class Factorialize extends React.Component {
     return factorial;
   }
   render() {
-    return <>{console.log(this.factorialize(5))}</>;
+    return (
+      <>
+        <h3>Factorialize the Number 5</h3>
+        <div>{this.factorialize(5)}</div>
+      </>
+    );
   }
 }
 

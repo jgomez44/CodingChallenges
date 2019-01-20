@@ -8,9 +8,12 @@ class App extends Component {
   render() {
     return (
       <>
-        <FizzBuzz />
-        <ReverseString />
-        <Factorialize />
+        <div className="container">
+          <h2>Coding Exercises</h2>
+          <FizzBuzz />
+          <ReverseString />
+          <Factorialize />
+        </div>
       </>
     );
   }
