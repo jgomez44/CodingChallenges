@@ -8,14 +8,15 @@ class PalindromeCheck extends React.Component {
       .reverse()
       .join("");
     if (arr === reverseStr) {
-      return true;
+      return "true";
     } else {
-      return false;
+      return "false";
     }
   };
   render() {
     return (
       <>
+        <h3>Palindrome Check: "Anna"</h3>
         <div>{this.palindromeCheck("anna")}</div>
       </>
     );
