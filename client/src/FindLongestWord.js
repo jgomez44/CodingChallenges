@@ -5,11 +5,15 @@ class FindLongestWord extends React.Component {
     let arr = str.split(" ");
     let wordLength = [];
     for (let i = 0; i < arr.length; i++) {
-      wordLength += arr[i].split("").length;
+      wordLength[i] = arr[i].split("").length;
+    }
+    console.log(wordLength);
+    for(let j=0; j<wordLength.length; j++){
+      
     }
   };
   render() {
-    return;
+    return <div>{this.findLongestWord("This is a sentence")}</div>;
   }
 }
 export default FindLongestWord;
