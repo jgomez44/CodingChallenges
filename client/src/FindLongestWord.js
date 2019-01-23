@@ -16,7 +16,7 @@ class FindLongestWord extends React.Component {
   render() {
     return (
       <div>
-        <h3>Longest Word:</h3>
+        <h3>Longest Word: "This is a sentence"</h3>
         <p>{this.findLongestWord("This is a sentence")}</p>
       </div>
     );
